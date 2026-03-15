@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formulario con python</title>
+</head>
+
+<body>
+    <h1>Ejemplo de formulario con python</h1>
+    <form class="form-register" action="/registrar_jugador" method="post">
+        <label for="name_jugador">Nombre del jugador</label>
+        <input type="text" id="name_jugador" name="name_jugador">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <input action="/registrar_jugador" type="submit" value="Registrar nuevo jugador">
+    </form>
+</body>
+
+</html>
